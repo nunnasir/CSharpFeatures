@@ -1,2 +1,2 @@
-# CSharpFeatures
-Some Basic Features which are regular uses in our daily developing life. 
+# C# Features
+Some Basic C# Features are regular uses in our daily development career. 
