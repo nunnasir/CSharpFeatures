@@ -1,0 +1,23 @@
+﻿Migrations Commands
+-----------------------------------------
+1. dotnet ef migrations add [MigrationName] --project [projectName] --context [ContextName]
+	-dotnet ef migrations add AddCourses --project EFExamples --context CourseDbContext
+
+2. dotnet ef database update --project [projectName] --context [contextName]
+	-dotnet ef database update --project EFExamples --context CourseDbContext
+
+Migrations Reverts Commands
+-----------------------------------------
+1. (If Effect On Database - Remove From Database by Name, Then all db migrations are removed after this migrations)
+   dotnet ef database update [migrationName] --project EFExamples --context CourseDbContext
+   
+2. (Remove Migration File From Code)
+   dotnet ef migrations remove (Remove Last Migrations)
+
+
+# For updating migration tool to latest version
+dotnet tool update --global dotnet-ef
+
+# Install specific version of dotnet ef tool
+dotnet tool install --global dotnet-ef --version 3.1.0
+
