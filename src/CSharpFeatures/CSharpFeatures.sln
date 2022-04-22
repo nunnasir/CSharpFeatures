@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdoDotNetExample", "AdoDotNetExample\AdoDotNetExample.csproj", "{42BDC6CD-036F-4648-959D-BE3D5062E531}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFExamples", "EFExamples\EFExamples.csproj", "{E9F51AC5-9669-4EE0-B7A6-B466EFA3FC5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFExamples", "EFExamples\EFExamples.csproj", "{E9F51AC5-9669-4EE0-B7A6-B466EFA3FC5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileAndDirectory", "FileAndDirectory\FileAndDirectory.csproj", "{C5FA6F52-F26F-473F-A20C-FBE87C0B4768}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E9F51AC5-9669-4EE0-B7A6-B466EFA3FC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9F51AC5-9669-4EE0-B7A6-B466EFA3FC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9F51AC5-9669-4EE0-B7A6-B466EFA3FC5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5FA6F52-F26F-473F-A20C-FBE87C0B4768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5FA6F52-F26F-473F-A20C-FBE87C0B4768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5FA6F52-F26F-473F-A20C-FBE87C0B4768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5FA6F52-F26F-473F-A20C-FBE87C0B4768}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
